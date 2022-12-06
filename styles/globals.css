@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -14,3 +14,80 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Regular.woff2") format("woff2"),
+    url("/fonts/Oswald-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Bold.woff2") format("woff2"),
+    url("/fonts/Oswald-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Light.woff2") format("woff2"),
+    url("/fonts/Oswald-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Medium.woff2") format("woff2"),
+    url("/fonts/Oswald-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-SemiBold.woff2") format("woff2"),
+    url("/fonts/Oswald-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik-Light.ttf") format("truetype"),
+    url("/fonts/Rubik-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik-Regular.ttf") format("truetype"),
+    url("/fonts/Rubik-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik-Medium.ttf") format("truetype"),
+    url("/fonts/Rubik-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik-Bold.ttf") format("truetype"),
+    url("/fonts/Rubik-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik-ExtraBold.ttf") format("truetype"),
+    url("/fonts/Rubik-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+/*.proba {
+  flex: 1;
+}*/

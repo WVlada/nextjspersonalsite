@@ -1,0 +1,74 @@
+.backgroung_opacity_change0 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background0;
+  background-image: url("../../public/images/home_cover00.jpg");
+}
+.backgroung_opacity_change1 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background1;
+  background-image: url("../../public/images/home_cover11.jpg");
+}
+.backgroung_opacity_change2 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background2;
+  background-image: url("../../public/images/home_cover22.jpg");
+}
+.backgroung_opacity_change3 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background3;
+  background-image: url("../../public/images/home_cover33.jpg");
+}
+@keyframes change-background0 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes change-background1 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes change-background2 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes change-background3 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.coveritemText {
+  color: white;
+  animation-duration: 1.5s;
+  animation-name: text-up;
+  /*animation-delay: 0.2s;*/
+  opacity: 0.5;
+  animation-fill-mode: forwards;
+}
+@keyframes text-up {
+  0% {
+    transform: translateY(80px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
