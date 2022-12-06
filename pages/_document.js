@@ -9,7 +9,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.0/svg.min.js"></script>
           <meta name="description" content="Vladimir Bukvic." />
           <link
             rel="icon"
