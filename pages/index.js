@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import CoverItemPureCss from "../pages/components/coverItemPureCss.component";
-import FourItems from "../pages/components/fourItems.component";
-import Header from "./components/header.component";
-import Personal from "../pages/components/personal.component";
-import Courses from "../pages/components/courses.component";
+import CoverItemPureCss from "../components/coverItemPureCss.component";
+import FourItems from "../components/fourItems.component";
+import Header from "../components/header.component";
+import Personal from "../components/personal.component";
+import Courses from "../components/courses.component";
 import Image from "next/image";
-import Modal from "./components/modal.component";
+import Modal from "../components/modal.component";
 import { AnimatePresence, motion } from 'framer-motion'
 export default function Home() {
   //let backGrounds = [1, 2, 3];

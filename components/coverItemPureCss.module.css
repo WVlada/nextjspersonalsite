@@ -2,25 +2,25 @@
   background-size: cover;
   animation-duration: 1s;
   animation-name: change-background0;
-  background-image: url("../../public/images/home_cover00.jpg");
+  background-image: url("../public/images/home_cover00.jpg");
 }
 .backgroung_opacity_change1 {
   background-size: cover;
   animation-duration: 1s;
   animation-name: change-background1;
-  background-image: url("../../public/images/home_cover11.jpg");
+  background-image: url("../public/images/home_cover11.jpg");
 }
 .backgroung_opacity_change2 {
   background-size: cover;
   animation-duration: 1s;
   animation-name: change-background2;
-  background-image: url("../../public/images/home_cover22.jpg");
+  background-image: url("../public/images/home_cover22.jpg");
 }
 .backgroung_opacity_change3 {
   background-size: cover;
   animation-duration: 1s;
   animation-name: change-background3;
-  background-image: url("../../public/images/home_cover33.jpg");
+  background-image: url("../public/images/home_cover33.jpg");
 }
 @keyframes change-background0 {
   0% {
