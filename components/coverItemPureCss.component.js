@@ -62,7 +62,7 @@ export default function CoverItemPureCss() {
   return (
     <div
       className={
-        "h-screen bg-fixed bg-center items-center flex flex-col justify-center rounded-t-lg " +
+        "h-screen min-h-[400px] bg-fixed bg-center items-center flex flex-col justify-center rounded-t-lg " +
         animation[current]
       }
     >
