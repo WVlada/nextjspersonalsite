@@ -87,10 +87,10 @@ export default function Modal({ activeItem, modalCloseHandler }) {
   return (
     <div
       className={
-        "relative top-0 left-0 h-full w-full justify-center z-50 bg-black bg-opacity-80 p-6 md:p-10  "
+        "relative top-0 left-0 h-full w-full justify-center z-50 bg-black bg-opacity-80 p-6 md:p-10 overflow-auto "
       }
     >
-      <div className="w-full bg-white opacity-80 min-h-full p-10 rounded-lg flex flex-col ">
+      <div className="w-full bg-white opacity-80 min-h-full p-10 md:p-14 rounded-lg flex flex-col ">
         <div className="w-full  text-[#344e6f] ">
           <p className="text-lg lg:text-3xl lg:mt-10">
             {items[activeItem].text1}
@@ -101,11 +101,11 @@ export default function Modal({ activeItem, modalCloseHandler }) {
           <Carousel item={items[activeItem]} />
         </div>
         <div className="w-full mb-10 md:mb-20 lg:mb-40 text-[#344e6f] grow ">
-          <p className="mt-4">{items[activeItem].text3}</p>
-          <p className="mt-4">{items[activeItem].text4}</p>
-          <p className="mt-4">{items[activeItem].text5}</p>
-          <p className="mt-4">{items[activeItem].text6}</p>
-          <p className="mt-4">{items[activeItem].text7}</p>
+          <p className="mt-2 md:mt-4">{items[activeItem].text3}</p>
+          <p className="mt-6 md:mt-10">{items[activeItem].text4}</p>
+          <p className="mt-2 md:mt-4">{items[activeItem].text5}</p>
+          <p className="mt-2 md:mt-4">{items[activeItem].text6}</p>
+          <p className="mt-2 md:mt-4">{items[activeItem].text7}</p>
           {items[activeItem].bigPicture && (
             <Link href={items[activeItem].bigPicture}><p className="underline cursor-pointer" >check out this picture !!! the great circle is ALSU and state agencies controllled enterprises</p></Link>
           )}

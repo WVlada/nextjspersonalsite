@@ -23,7 +23,7 @@ export default function Carousel({ item }) {
     //let images = { 1: { 1: "bg-[url('/images/carousel/image1.jpg')]", 2: "bg-[url('/images/carousel/image2.jpg')]", 3: "bg-[url('/images/carousel/image3.jpg')]", 4: "bg-[url('/images/carousel/image4.jpg')]" }, 2: { 1: '', 2: '', 3: '', 4: '' }, 3: { 1: '', 2: '', 3: '', 4: '' }, 4: { 1: '', 2: '', 3: '', 4: '' } }
     const classname = item.images[currentPic] + " " + disappear
     return (
-        <div className={"mt-8 md:mt-20 w-full flex flex-row bg-cover bg-center rounded-lg drop-shadow-lg " + classname}>
+        <div className={"mt-2 md:mt-14 w-full flex flex-row bg-cover bg-center rounded-lg drop-shadow-lg " + classname}>
             <div onClick={handleLeftArrowClick} className=" basis-1/6 h-40 md:h-80 justify-center lg:h-96 2xl:h-[32rem] flex items-center bg-[#2e435f] bg-opacity-20 cursor-pointer"><CarouselLeftArrow /></div>
             <div className="basis-4/6 "></div>
             <div onClick={handleRightArrowClick} className=" basis-1/6 flex justify-center items-center bg-[#2e435f] bg-opacity-20 cursor-pointer"><CarouselRightArrow /></div>
