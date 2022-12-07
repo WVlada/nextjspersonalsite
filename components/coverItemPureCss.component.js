@@ -62,7 +62,7 @@ export default function CoverItemPureCss() {
   return (
     <div
       className={
-        "h-screen min-h-[400px] bg-fixed bg-center items-center flex flex-col justify-center rounded-t-lg " +
+        "min-h-screen bg-fixed bg-center items-center flex flex-col justify-center rounded-t-lg  " +
         animation[current]
       }
     >
@@ -75,7 +75,7 @@ export default function CoverItemPureCss() {
                 key={index}
                 className={
                   styles.coveritemText +
-                  " font-rubik  mx-10 "
+                  " font-rubik  mx-10 mt-[100px] "
                 }
               >
                 {text}

@@ -34,7 +34,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen p-1">
+    <div className="flex flex-col min-h-screen  p-1">
       <Header />
       <CoverItemPureCss />
 
