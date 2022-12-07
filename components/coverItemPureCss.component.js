@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./coverItemPureCss.module.css";
+import { useEffect } from "react";
 
 export default function CoverItemPureCss() {
   let textArray = [
@@ -17,6 +18,21 @@ export default function CoverItemPureCss() {
     styles.backgroung_opacity_change2,
     styles.backgroung_opacity_change3,
   ];
+  let mani = [
+    styles.mbackgroung_opacity_change0,
+    styles.mbackgroung_opacity_change1,
+    styles.mbackgroung_opacity_change2,
+    styles.mbackgroung_opacity_change3,
+  ];
+  const [animation, setAnimation] = useState(mani);
+  useEffect(() => {
+    window.innerWidth;
+    if (window.innerWidth > 768) {
+      setAnimation(ani);
+    } else {
+      setAnimation(mani);
+    }
+  }, []);
   setTimeout(() => {
     if (current == 0) {
       setCurrent(1);
@@ -47,7 +63,7 @@ export default function CoverItemPureCss() {
     <div
       className={
         "h-screen bg-fixed bg-center items-center flex flex-col justify-center rounded-t-lg " +
-        ani[current]
+        animation[current]
       }
     >
       <div className="grow"></div>

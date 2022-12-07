@@ -9,7 +9,7 @@ export default function Modal({ activeItem, modalCloseHandler }) {
       text3: "NextJS and MongoDB",
       text4: "Equipment rental, paying in stripe, discount options",
       text5:
-        "Invenotory backend where agents on field can rent, mark equipment damaged or unavailable",
+        "Inventory backend where agents on field can rent, mark equipment damaged or unavailable",
       text6: "Term extension possibility during rental",
       text7: "Complete backend admin/agent managment",
       images: [
