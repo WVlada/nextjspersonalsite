@@ -13,16 +13,16 @@ export default function CoverItemPureCss() {
   let [showArrow, setShowArrow] = useState(false);
   let [textArrayNum, setTextArrayNum] = useState(0);
   let ani = [
-    styles.backgroung_opacity_change0,
-    styles.backgroung_opacity_change1,
-    styles.backgroung_opacity_change2,
-    styles.backgroung_opacity_change3,
+    "backgroung_opacity_change0",
+    "backgroung_opacity_change1",
+    "backgroung_opacity_change2",
+    "backgroung_opacity_change3",
   ];
   let mani = [
-    styles.mbackgroung_opacity_change0,
-    styles.mbackgroung_opacity_change1,
-    styles.mbackgroung_opacity_change2,
-    styles.mbackgroung_opacity_change3,
+    "mbackgroung_opacity_change0",
+    "mbackgroung_opacity_change1",
+    "mbackgroung_opacity_change2",
+    "mbackgroung_opacity_change3",
   ];
   const [animation, setAnimation] = useState(mani);
   useEffect(() => {
@@ -88,7 +88,7 @@ export default function CoverItemPureCss() {
 
       </div><div className="grow"></div>
       {showArrow && 
-      <div onClick={handleArrowClick} className="cursor-pointer animate-bounce bg-white dark:bg-[#344e6f] p-2 w-14 h-14 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center mb-4">
+      <div onClick={handleArrowClick} className="cursor-pointer animate-bounce bg-[#344e6f] p-2 w-14 h-14 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center mb-4">
         <svg  className="w-6 h-6 text-white" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>

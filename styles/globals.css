@@ -91,3 +91,83 @@ a {
 /*.proba {
   flex: 1;
 }*/
+.backgroung_opacity_change0 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background0;
+  background-image: url("../public/images/home_cover00.jpg");
+}
+.backgroung_opacity_change1 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background1;
+  background-image: url("../public/images/home_cover11.jpg");
+}
+.backgroung_opacity_change2 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background2;
+  background-image: url("../public/images/home_cover22.jpg");
+}
+.backgroung_opacity_change3 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background3;
+  background-image: url("../public/images/home_cover33.jpg");
+}
+.mbackgroung_opacity_change0 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background0;
+  background-image: url("../public/images/mhome_cover00.jpg");
+}
+.mbackgroung_opacity_change1 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background1;
+  background-image: url("../public/images/mhome_cover11.jpg");
+}
+.mbackgroung_opacity_change2 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background2;
+  background-image: url("../public/images/mhome_cover22.jpg");
+}
+.mbackgroung_opacity_change3 {
+  background-size: cover;
+  animation-duration: 1s;
+  animation-name: change-background3;
+  background-image: url("../public/images/mhome_cover33.jpg");
+}
+@keyframes change-background0 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes change-background1 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes change-background2 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes change-background3 {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
