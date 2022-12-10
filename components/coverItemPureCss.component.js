@@ -11,7 +11,7 @@ export default function CoverItemPureCss() {
     "CREATIVE NUDGE EVERY DAY",
   ];
   let [current, setCurrent] = useState(0);
-  let [showArrow, setShowArrow] = useState(false);
+  let [showArrow, setShowArrow] = useState(true);
   let [textArrayNum, setTextArrayNum] = useState(0);
   let ani = [
     styles.backgroung_opacity_change0,
@@ -99,7 +99,7 @@ export default function CoverItemPureCss() {
       {showArrow && (
         <div
           onClick={handleArrowClick}
-          className="cursor-pointer animate-bounce bg-[#344e6f] p-2 w-14 h-14 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center mb-4"
+          className="absolute bottom-4 cursor-pointer animate-bounce bg-[#344e6f] p-2 w-14 h-14 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center mb-4"
         >
           <svg
             className="w-6 h-6 text-white"
