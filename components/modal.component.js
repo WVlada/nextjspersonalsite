@@ -54,7 +54,7 @@ export default function Modal({ activeItem, modalCloseHandler }) {
       text5: "Exporting of statements in PDF",
       text6:
         "Not available due to Herokus no free dyno policy since novembar 2022",
-      text7: "Visualy brutal, built by accountant for accountants",
+      text7: "Visualy stunning, built by accountant for accountants",
       images: [
         "bg-[url('/images/carouselbooks1.jpg')]",
         "bg-[url('/images/carouselbooks2.jpg')]",
