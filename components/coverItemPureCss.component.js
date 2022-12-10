@@ -13,16 +13,16 @@ export default function CoverItemPureCss() {
   let [showArrow, setShowArrow] = useState(false);
   let [textArrayNum, setTextArrayNum] = useState(0);
   let ani = [
-    "backgroung_opacity_change0",
-    "backgroung_opacity_change1",
-    "backgroung_opacity_change2",
-    "backgroung_opacity_change3",
+    styles.backgroung_opacity_change0,
+    styles.backgroung_opacity_change1,
+    styles.backgroung_opacity_change2,
+    styles.backgroung_opacity_change3,
   ];
   let mani = [
-    "mbackgroung_opacity_change0",
-    "mbackgroung_opacity_change1",
-    "mbackgroung_opacity_change2",
-    "mbackgroung_opacity_change3",
+    styles.mbackgroung_opacity_change0,
+    styles.mbackgroung_opacity_change1,
+    styles.mbackgroung_opacity_change2,
+    styles.mbackgroung_opacity_change3,
   ];
   const [animation, setAnimation] = useState(mani);
   useEffect(() => {
