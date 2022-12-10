@@ -31,15 +31,16 @@ export default function Carousel({ item }) {
       }
     >
       {// preloading images for carousel
-      item.images.map(() => {
+      item.images.map((it, index) => {
         return (
           <Image
-            className={classname}
+            className={it}
             priority
             src="/images/carouselbooks1.jpg"
             alt="carousel image"
             width={0}
             height={0}
+            key={index}
           ></Image>
         );
       })}
