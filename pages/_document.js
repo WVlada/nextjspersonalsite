@@ -47,14 +47,6 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="Vladimir" />
           <meta name="twitter:image" content="{{ url('/') }}/images/logo.png" />
           <meta name="twitter:url" content="{{ url('/') }}" />
-          <link rel="preload" as="image" href="/images/home_cover00.jpg"></link>
-          <link rel="preload" as="image" href="/images/home_cover11.jpg"></link>
-          <link rel="preload" as="image" href="/images/home_cover22.jpg"></link>
-          <link rel="preload" as="image" href="/images/home_cover33.jpg"></link>
-          <link rel="preload" as="image" href="/images/mhome_cover00.jpg"></link>
-          <link rel="preload" as="image" href="/images/mhome_cover11.jpg"></link>
-          <link rel="preload" as="image" href="/images/mhome_cover22.jpg"></link>
-          <link rel="preload" as="image" href="/images/mhome_cover33.jpg"></link>
         </Head>
         <body className="font-rubik">
           <Main />
