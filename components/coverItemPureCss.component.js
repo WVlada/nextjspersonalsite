@@ -80,6 +80,18 @@ export default function CoverItemPureCss() {
             height={0}
           ></Image>;
         })}
+        {// preload wide screen also who cares
+        ani.map((man,index) => {
+          return <Image
+            priority
+            src={'/images/mhome_cover11.jpg'}
+            className={man}
+            alt="preload test"
+            width={0}
+            key={index}
+            height={0}
+          ></Image>;
+        })}
       </div>
       <div className="text-3xl md:text-[70px] font-thin text-center leading-none">
         {textArray.map((text, index) => {
