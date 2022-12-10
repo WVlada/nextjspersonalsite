@@ -70,10 +70,13 @@ export default function CoverItemPureCss() {
       <div className="grow">
         {// doeas preloading css classes help?
         mani.map((man) => {
-          <Image
+          return <Image
+            priority
+            src={'/images/mhome_cover11.jpg'}
             className={man}
             alt="preload test"
             width={0}
+            key={man}
             height={0}
           ></Image>;
         })}
