@@ -74,14 +74,14 @@ export default function Modal({ activeItem, modalCloseHandler }) {
     },
   };
   return (
-    <div className={"flex relative w-full justify-center z-0 bg-[#304b7c] bg-opacity-100 p-6 md:p-10 overflow-auto "}>
-      <div className="w-full md:w-4/5 2xl:w-3/5 5xl:w-2/5 bg-white opacity-80 p-6 md:p-14 rounded-lg flex flex-col ">
+    <div className={"flex flex-col w-full items-center justify-start z-0 bg-[#304b7c] bg-opacity-100 p-6 md:p-10 overflow-auto "}>
+      <div className="w-full md:w-4/5 2xl:w-3/5 5xl:w-2/5 bg-white opacity-80 p-6 md:p-14 rounded-lg ">
         <div className="w-full text-[#344e6f] ">
           <p className="text-lg lg:text-3xl lg:mt-10">{items[activeItem].text1}</p>
           <p className="text-sm mt-5 lg:mt-10 lg:text-lg">{items[activeItem].text2}</p>
           <Carousel item={items[activeItem]} />
         </div>
-        <div className="w-full mb-8 md:mb-20 lg:mb-40 text-[#344e6f] grow ">
+        <div className="w-full mb-8 md:mb-20 lg:mb-40 text-[#344e6f]  ">
           <p className="mt-2 md:mt-4">{items[activeItem].text3}</p>
           <p className="mt-6 md:mt-10 text-justify">{items[activeItem].text4}</p>
           <p className="mt-4 md:mt-4">{items[activeItem].text5}</p>
@@ -103,7 +103,7 @@ export default function Modal({ activeItem, modalCloseHandler }) {
             </p>
           }
         </div>
-        <div className="flex flex-col items-center justify-center bottom-0  w-full">
+        <div className="flex flex-col items-center justify-center bottom-0 w-full">
           <button className="z-50 font-rubik bg-[#344e6f] text-white rounded p-2 w-full lg:w-3/4" type="button" onClick={modalCloseHandler}>
             close
           </button>

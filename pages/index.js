@@ -34,14 +34,14 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen  p-1">
+    <div className="flex flex-col min-h-screen   p-1  ">
       <Header />
       <CoverItemPureCss />
 
       <FourItems toggleModal={toggleModal} setItem={setItem} />
       <AnimatePresence>
         {activeItem &&
-          <motion.div key={activeItem} className={"fixed top-0 left-0 w-full flex  z-50 min-h-full"} initial={{ opacity: 0, y: -100 }}
+          <motion.div key={activeItem} className={"fixed top-0 left-0 w-full flex z-50 h-full"} initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 100 }}
             transition={{ ease: "easeOut", duration: 1 }}>
