@@ -94,12 +94,12 @@ export default function Modal({ activeItem, modalCloseHandler }) {
           )}
           {
             <p className="mt-4">
-              Check it on: {items[activeItem].link ? <a target="_blank" href={items[activeItem].link}>{items[activeItem].link}</a> : "link not yet available"}
+              Check it on: {items[activeItem].link ? <a rel="noreferrer" target="_blank" href={items[activeItem].link}>{items[activeItem].link}</a> : "link not yet available"}
             </p>
           }
           { items[activeItem].link2 &&
             <p className="mt-4">
-              Dedicated site: {items[activeItem].link2 ? <a target="_blank" href={items[activeItem].link2}>{items[activeItem].link2}</a> : "link not yet available"}
+              Dedicated site: {items[activeItem].link2 ? <a rel="noreferrer" target="_blank" href={items[activeItem].link2}>{items[activeItem].link2}</a> : "link not yet available"}
             </p>
           }
         </div>
