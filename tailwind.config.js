@@ -14,7 +14,6 @@ module.exports = {
         "spin-slow": "spin 3s linear infinite",
       },
       backgroundImage: {
-        "bga": "url('/images/bg1.jpg')",
         "home-cover0": "url('/images/home_cover00.jpg')",
         "home-cover1": "url('/images/home_cover11.jpg')",
         "home-cover2": "url('/images/home_cover22.jpg')",

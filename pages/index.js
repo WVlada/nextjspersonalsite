@@ -29,7 +29,7 @@ export default function Home() {
     setActiveItem(null)
   }
   const setItem = (item) => {
-    console.log(item)
+    //console.log(item)
     setActiveItem(item)
   }
 

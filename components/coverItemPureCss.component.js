@@ -5,10 +5,10 @@ import Image from "next/image";
 
 export default function CoverItemPureCss() {
   let textArray = [
-    "CLOUD BOOKKEEPING APP",
+    "OBRAČUN KAMATE / INTEREST CALCULATOR",
     "WATER SPORTS EQUIPMENT RENTAL",
     "SERBIAN ECONOMY IN ONE PICTURE",
-    "CREATIVE NUDGE EVERY DAY",
+    "CLOUD BOOKKEEPING APP",
   ];
   let [current, setCurrent] = useState(0);
   let [showArrow, setShowArrow] = useState(true);

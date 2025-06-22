@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 export default function Carousel({ item }) {
-  console.log(item);
+  //console.log(item);
   const [currentPic, setCurrentPic] = useState(0);
   const [disappear, setDisapear] = useState(" ");
   const handleRightArrowClick = () => {
@@ -53,7 +53,7 @@ export default function Carousel({ item }) {
       <div className="basis-4/6 "></div>
       <div
         onClick={handleRightArrowClick}
-        className=" basis-1/6 flex justify-center items-center bg-[#2e435f] bg-opacity-20 cursor-pointer"
+        className="object-fill basis-1/6 flex justify-center items-center bg-[#2e435f] bg-opacity-20 cursor-pointer"
       >
         <CarouselRightArrow />
       </div>
