@@ -74,8 +74,8 @@ export default function Modal({ activeItem, modalCloseHandler }) {
     },
   };
   return (
-    <div className={"flex relative top-0 left-0 h-full w-full justify-center items-center z-0 bg-[#304b7c] bg-opacity-100 p-6 md:p-10 overflow-auto "}>
-      <div className="w-full md:w-4/5 2xl:w-3/5 5xl:w-2/5 bg-white opacity-80 min-h-full p-6 md:p-14 rounded-lg flex flex-col  ">
+    <div className={"flex relative w-full justify-center z-0 bg-[#304b7c] bg-opacity-100 p-6 md:p-10 overflow-auto "}>
+      <div className="w-full md:w-4/5 2xl:w-3/5 5xl:w-2/5 bg-white opacity-80 p-6 md:p-14 rounded-lg flex flex-col ">
         <div className="w-full text-[#344e6f] ">
           <p className="text-lg lg:text-3xl lg:mt-10">{items[activeItem].text1}</p>
           <p className="text-sm mt-5 lg:mt-10 lg:text-lg">{items[activeItem].text2}</p>

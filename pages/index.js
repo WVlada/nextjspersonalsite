@@ -41,7 +41,7 @@ export default function Home() {
       <FourItems toggleModal={toggleModal} setItem={setItem} />
       <AnimatePresence>
         {activeItem &&
-          <motion.div key={activeItem} className={"fixed top-0 left-0 h-full w-full flex justify-center items-center z-50 "} initial={{ opacity: 0, y: -100 }}
+          <motion.div key={activeItem} className={"fixed top-0 left-0 w-full flex  z-50 min-h-full"} initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 100 }}
             transition={{ ease: "easeOut", duration: 1 }}>
