@@ -75,18 +75,18 @@ export default function Modal({ activeItem, modalCloseHandler }) {
   };
   return (
     <div className={"flex relative top-0 left-0 h-full w-full justify-center items-center z-0 bg-[#304b7c] bg-opacity-100 p-6 md:p-10 overflow-auto "}>
-      <div className="w-full md:w-4/5 2xl:w-3/5 5xl:w-2/5 bg-white opacity-80 min-h-full p-10 md:p-14 rounded-lg flex flex-col  ">
+      <div className="w-full md:w-4/5 2xl:w-3/5 5xl:w-2/5 bg-white opacity-80 min-h-full p-6 md:p-14 rounded-lg flex flex-col  ">
         <div className="w-full text-[#344e6f] ">
           <p className="text-lg lg:text-3xl lg:mt-10">{items[activeItem].text1}</p>
           <p className="text-sm mt-5 lg:mt-10 lg:text-lg">{items[activeItem].text2}</p>
           <Carousel item={items[activeItem]} />
         </div>
-        <div className="w-full mb-10 md:mb-20 lg:mb-40 text-[#344e6f] grow ">
+        <div className="w-full mb-8 md:mb-20 lg:mb-40 text-[#344e6f] grow ">
           <p className="mt-2 md:mt-4">{items[activeItem].text3}</p>
-          <p className="mt-6 md:mt-10">{items[activeItem].text4}</p>
-          <p className="mt-2 md:mt-4">{items[activeItem].text5}</p>
-          <p className="mt-2 md:mt-4">{items[activeItem].text6}</p>
-          <p className="mt-2 md:mt-4">{items[activeItem].text7}</p>
+          <p className="mt-6 md:mt-10 text-justify">{items[activeItem].text4}</p>
+          <p className="mt-4 md:mt-4">{items[activeItem].text5}</p>
+          <p className="mt-4 md:mt-4">{items[activeItem].text6}</p>
+          <p className="mt-4 md:mt-4">{items[activeItem].text7}</p>
           {items[activeItem].bigPicture && (
             <Link href={items[activeItem].bigPicture}>
               <p className="underline cursor-pointer">check out this picture !!! the great circle is ALSU and state agencies controllled enterprises</p>
